@@ -1,0 +1,72 @@
+{
+  "report": {
+    "score": 72,
+    "riskLevel": "Medium",
+    "summary": "Vercel's website is generally transparent about its data practices, but we found several areas where the website implements features that aren't fully disclosed in the legal documentation. The site uses analytics and third-party services that are partially disclosed, and there are minor gaps in cookie consent mechanisms. Overall, the documentation covers the core business but misses some implementation details.",
+    "statistics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 3,
+      "low": 2
+    },
+    "findings": [
+      {
+        "category": "Analytics Disclosure",
+        "severity": "Medium",
+        "websiteEvidence": "Vercel's homepage and dashboard load multiple analytics scripts including heap analytics and posthog for product analytics, along with Vercel Web Analytics for performance tracking.",
+        "policyEvidence": "The Privacy Policy mentions 'analytics services' in general terms but does not specifically name Heap, PostHog, or detail what data these services collect.",
+        "explanation": "The website uses at least two third-party analytics platforms (Heap, PostHog) that are not individually disclosed in the Privacy Policy. While aggregate analytics are mentioned, specific platforms and their data processing details are omitted.",
+        "recommendation": "Update the Privacy Policy to list all analytics providers by name and include links to their privacy policies. Specify what data each service collects (page views, clicks, session recordings).",
+        "confidence": 0.88
+      },
+      {
+        "category": "AI Feature Disclosure",
+        "severity": "Medium",
+        "websiteEvidence": "Vercel's dashboard includes AI-powered features such as Vercel AI SDK documentation, AI chat completion demos, and generative UI previews.",
+        "policyEvidence": "The Terms of Service and Privacy Policy do not contain specific disclosures about AI-powered features, data used for AI training, or how user inputs to AI features are processed.",
+        "explanation": "The platform prominently features AI capabilities in its product, but the legal documentation does not address how AI features handle user data, whether inputs are used for training, or what data is sent to third-party AI providers.",
+        "recommendation": "Add an AI-specific section to the Privacy Policy covering: data sent to AI providers, whether inputs are used for training, retention of AI interactions, and opt-out mechanisms.",
+        "confidence": 0.82
+      },
+      {
+        "category": "Cookie Consent Implementation",
+        "severity": "Medium",
+        "websiteEvidence": "The website loads analytics and marketing cookies before user consent is obtained. Cookie notice appears as a banner but analytics scripts initialize on page load.",
+        "policyEvidence": "The Cookie Policy describes a consent-based approach where cookies require user opt-in before activation, and users can customize preferences.",
+        "explanation": "There's a discrepancy between the Cookie Policy's stated consent-before-tracking approach and the observed behavior where some analytics scripts initialize before user interaction with the cookie banner.",
+        "recommendation": "Implement strict consent-before-tracking by deferring all non-essential script initialization until after the user interacts with the cookie consent banner.",
+        "confidence": 0.75
+      },
+      {
+        "category": "Third-Party Subprocessors",
+        "severity": "Low",
+        "websiteEvidence": "Vercel's documentation and dashboard integrate with GitHub, GitLab, Slack, Discord, and Sentry for error tracking throughout the platform.",
+        "policyEvidence": "The Privacy Policy lists major subprocessors but does not include Sentry or Discord in the official subprocessor list.",
+        "explanation": "The website integrates with services not listed as subprocessors in the Privacy Policy. While these are standard developer tools, their omission creates a minor compliance gap.",
+        "recommendation": "Review and update the subprocessor list quarterly to ensure all integrated third-party services are disclosed.",
+        "confidence": 0.7
+      },
+      {
+        "category": "Data Retention Documentation",
+        "severity": "Low",
+        "websiteEvidence": "User accounts, deployment logs, and analytics data are retained and accessible in the dashboard indefinitely unless manually deleted by the user.",
+        "policyEvidence": "The Privacy Policy states data is retained 'as long as necessary' but does not provide specific retention periods for different data categories (logs, analytics, account data).",
+        "explanation": "Specific data retention periods are not documented per data category. GDPR and CCPA best practices recommend clear retention schedules for different data types.",
+        "recommendation": "Add a data retention table to the Privacy Policy specifying retention periods for each category: account data, deployment logs, analytics, billing information, and support tickets.",
+        "confidence": 0.65
+      }
+    ]
+  },
+  "meta": {
+    "url": "https://vercel.com",
+    "pagesCrawled": 5,
+    "documentsFound": 3,
+    "charsExtracted": 28450,
+    "tokensProcessed": 7112,
+    "analysisDuration": 9.8,
+    "totalDuration": 14.2,
+    "aiProvider": "DeepSeek",
+    "model": "deepseek-chat"
+  },
+  "generatedAt": "2026-07-30T12:00:00.000Z"
+}

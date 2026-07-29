@@ -1,0 +1,26 @@
+# Repository Code Owners
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global owners (review all changes by default)
+* @saitarun1999
+
+# Documentation
+/docs/* @saitarun1999
+
+# GitHub configuration
+/.github/* @saitarun1999
+
+# Core source code
+/src/app/**/*.tsx @saitarun1999
+/src/app/**/*.ts @saitarun1999
+/src/components/**/*.tsx @saitarun1999
+/src/lib/**/*.ts @saitarun1999
+
+# API routes
+/src/app/api/**/*.ts @saitarun1999
+
+# Configuration
+/package.json @saitarun1999
+/tsconfig.json @saitarun1999
+/next.config.ts @saitarun1999
+/eslint.config.mjs @saitarun1999
