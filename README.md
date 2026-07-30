@@ -284,7 +284,7 @@ sequenceDiagram
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/saitarun1999/policylens.git
+git clone https://github.com/saitarun29/policylens.git
 cd policylens
 
 # 2. Install dependencies
@@ -322,7 +322,7 @@ DEEPSEEK_API_KEY=sk_your_deepseek_api_key_here   # Recommended
 
 ### Vercel (One-Click)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsaitarun1999%2Fpolicylens)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsaitarun29%2Fpolicylens)
 
 1. Click the button above
 2. Import the repository
@@ -455,7 +455,7 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
-MIT © [saitarun1999](https://github.com/saitarun1999)
+MIT © [saitarun29](https://github.com/saitarun29)
 
 <br />
 
@@ -493,6 +493,6 @@ Reports exist only in your browser's memory. Refreshing the page clears them. Po
 
 <p align="center">
   <a href="https://policylens.app">policylens.app</a> •
-  <a href="https://github.com/saitarun1999/policylens">GitHub</a> •
+  <a href="https://github.com/saitarun29/policylens">GitHub</a> •
   <a href="https://vercel.com">Deployed on Vercel</a>
 </p>

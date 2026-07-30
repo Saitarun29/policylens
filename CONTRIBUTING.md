@@ -15,7 +15,7 @@ This project and everyone participating in it is governed by our [Code of Conduc
 ### Reporting Bugs
 
 Before submitting a bug report, please check that:
-1. The bug hasn't been [reported already](https://github.com/saitarun1999/policylens/issues)
+1. The bug hasn't been [reported already](https://github.com/saitarun29/policylens/issues)
 2. You're running the latest version
 3. Your environment matches the [prerequisites](#development-setup)
 
@@ -71,7 +71,7 @@ We welcome feature ideas! When suggesting a feature:
 
 ```bash
 # Clone the repository
-git clone https://github.com/saitarun1999/policylens.git
+git clone https://github.com/saitarun29/policylens.git
 cd policylens
 
 # Install dependencies
@@ -231,8 +231,8 @@ docs/                 # Comprehensive documentation
 
 ## Questions?
 
-- **Open a Discussion** — [GitHub Discussions](https://github.com/saitarun1999/policylens/discussions)
-- **File an Issue** — [Issue Tracker](https://github.com/saitarun1999/policylens/issues)
-- **Reach out** — [@saitarun1999](https://github.com/saitarun1999)
+- **Open a Discussion** — [GitHub Discussions](https://github.com/saitarun29/policylens/discussions)
+- **File an Issue** — [Issue Tracker](https://github.com/saitarun29/policylens/issues)
+- **Reach out** — [@saitarun29](https://github.com/saitarun29)
 
 Thank you for contributing to PolicyLens.
